@@ -1,0 +1,362 @@
+.header {
+  padding-top: 16px;
+  padding-left: 16px;
+  min-height: 100px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: top center;
+  position: center;
+}
+
+.header .container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.header .logo {
+  position: center;
+  width: 720px;
+  margin-bottom: 35px;
+}
+
+.header .logo .item {
+  margin: 0;
+}
+
+.header .logo .item img {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  float: left;
+}
+
+.header .logo .item .box_1 {
+  width: 365px;
+  height: 83px;
+  display: inline-block;
+  margin-left: -40px;
+}
+
+.header .info {
+  margin-top: 15px;
+}
+
+.header .info h3 {
+  font-size: 16px;
+  colorq: black;
+  padding-left: 47px;
+  padding-bottom: 5px;
+}
+
+.header .info p {
+  padding-left: 47px;
+  color: #b6b5b5;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.header .description {
+  border: 1px solid #b6b5b5;
+  display: inline-block;
+  width: 365px;
+  height: 55px;
+  background-color: #fffbc8;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  font-size: 15px;
+  color: #797878;
+}
+
+.header .description p {
+  padding-left: 47px;
+  padding-top: 5px;
+}
+
+.box_2 {
+  display: inline-block;
+}
+
+.box_2 #tabl {
+  float: left;
+  width: 300px;
+  margin-top: 20px;
+  color: #111;
+}
+
+#tabl #question {
+  display: block;
+  color: #333;
+  font-weight: bold;
+  letter-spacing: -3px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 24px;
+  text-align: right;
+  margin-right: -45px;
+}
+
+#tabl .line1 {
+  border: none;
+  width: 350px;
+  height: 1px;
+  background-color: #cccccc;
+}
+
+#tabl .line2 {
+  border: none;
+  width: 350px;
+  height: 2px;
+  background-color: #cccccc;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.chisl_znach {
+  float: right;
+  margin-top: 85px;
+}
+
+.chisl_znach #znach_style2 {
+  padding-top: 15px;
+}
+
+.chisl_znach #znach_style3 {
+  padding-top: 15px;
+}
+
+.chisl_znach #znach_style4 {
+  padding-top: 25px;
+}
+
+#tabl div {
+  font-weight: bold;
+  background: #b1e19b;
+  margin-bottom: 5px;
+  width: 300px;
+  height: 25px;
+  font-size: 13px;
+  color: #797878;
+  border-left: 2px solid #333;
+  width: 0px;
+}
+
+#tabl a {
+  padding-left: 250px;
+  min-width: 200px;
+  text-decoration: none;
+  color: #797878;
+  padding: 5px 5px;
+}
+
+#tabl div a:hover {
+  color: red;
+}
+
+.center_block {
+  display: inline-block;
+  width: 400px;
+  text-align: center;
+  margin-left: 25%;
+}
+
+.center_block .like_info {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  display: inline-block;
+  max-width: 450px;
+}
+
+.center_block .like_info span {
+  margin-left: 0;
+}
+
+.center_block .like_info span a {
+  margin-left: 12px;
+}
+
+.center_block .like_info .like {
+  float: right;
+  margin-right: 30px;
+}
+
+.center_block .like_info .com {
+  float: right;
+}
+
+.box_3 {
+  padding-top: 20px;
+  background-color: #f2f2f2;
+  min-width: 490px;
+  text-align: center;
+}
+
+.box_3 .coments input {
+  width: 450px;
+  height: 65px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+}
+
+.btn {
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+.btn a.cbk {
+  text-decoration: none;
+  background-color: #fdd639;
+  text-decoration: none;
+  width: 280px;
+  height: 43px;
+  -webkit-border-radius: 25px;
+          border-radius: 25px;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'PT Sans';
+  padding: 10px 40px;
+}
+
+.mfp-content {
+  width: 250px;
+  height: 150px;
+  background: white;
+  padding: 20px 30px;
+  text-align: left;
+  max-width: 400px;
+  margin: 40px auto;
+  text-align: center;
+  position: relative;
+}
+
+#comments-wrapper {
+  display: inline-block;
+  color: #464646;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#date {
+  font-size: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.fb span {
+  font-weight: 700;
+  font-size: 23px;
+  display: block;
+  margin-bottom: 13px;
+}
+
+.fb a.req {
+  text-decoration: none;
+  width: 100px;
+  height: 20px;
+  background-color: red;
+  color: #fff;
+  display: block;
+  margin-left: 75px;
+  margin-top: 30px;
+  text-align: center;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+}
+
+.fb {
+  display: block;
+  width: 260px;
+  margin: 7px auto;
+  text-indent: 6px;
+  padding-bottom: 20px;
+}
+
+.comment {
+  width: 450px;
+  height: 65px;
+  background-color: #f2fbff;
+  text-align: left;
+  border: 2px solid #b6b5b5;
+}
+
+.comentations {
+  text-align: center;
+}
+
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /**/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /**/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /**/
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .center_block {
+    margin-left: 0%;
+  }
+}
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  .center_block {
+    margin-left: 0%;
+  }
+  .header .description {
+    width: 300px;
+  }
+  .box_3 .coments input {
+    width: 300px;
+  }
+  .comment {
+    width: 300px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .center_block {
+    margin-left: 20%;
+  }
+  .box_3 .coments input {
+    width: 450px;
+  }
+  .comment {
+    width: 450px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/
+}
